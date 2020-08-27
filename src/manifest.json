@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "version": "1.1",
+  "name": "metabase-formatter",
+  "description": "Auto format metabase queries on MB GUI",
+  "content_scripts": [
+    {
+      "js": ["inject.bundle.js"],
+      "matches": [""]
+    }
+  ],
+  "web_accessible_resources": ["index.bundle.js"]
+}
