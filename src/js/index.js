@@ -46,4 +46,10 @@ const enable = () => {
   })
 }
 
-enable()
+const inject = () => {
+  if (document.getElementsByClassName('QueryBuilder').length > 0) {
+    enable()
+  }
+}
+
+inject()

@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "js": ["inject.bundle.js"],
-      "matches": ["*"]
+      "matches": ["https://*/*"]
     }
   ],
   "web_accessible_resources": ["index.bundle.js"]
